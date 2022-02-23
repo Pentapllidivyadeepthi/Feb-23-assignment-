@@ -1,0 +1,10 @@
+# Feb-23-assignment-
+l=[]
+n=int(input('enter n'))
+print (' enter values')
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print (' list in reverse order')
+for i in range(n-1,-1,-1):
+    print(l[i])
